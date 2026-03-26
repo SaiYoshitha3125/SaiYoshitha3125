@@ -16,7 +16,7 @@ jobs:
         with:
           github_user_name: SaiYoshitha3125
           outputs: |
-            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake.svg?palette=github-dark&color_snake=#ff69b4&color_dots=#161b22,#21262d,#30363d,#ff69b4,#ff1493
 
       - uses: crazy-max/ghaction-github-pages@v2
         with:
